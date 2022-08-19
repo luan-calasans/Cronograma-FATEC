@@ -1,0 +1,120 @@
+/* GENERAL */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+}
+
+/* HEADER */
+
+h1{
+	margin: 2rem;
+}
+
+h1,p{
+	text-align: center;
+	margin: auto;
+	padding: auto;
+	width: 100%;
+}
+
+/* TABLE */
+
+#container{
+	margin-inline: 0.2em;
+	width: 99%;
+}
+
+table{
+	text-align: center;
+	margin: auto;
+	padding: auto;
+	width: 100%;
+}
+
+th{
+	padding-inline: 1em;
+	background-color: rgb(67, 158, 224);
+	border: 1px solid black;
+}
+
+td{
+	border: 1px solid black;
+	padding-inline: 8px;
+	font-size: 0.8rem;
+}
+
+.subtopics{
+	background-color: rgb(73, 177, 252);
+}
+
+.weekdays{
+	margin-block: 0.8em;
+	max-width: 40rem;
+}
+
+
+/* MONDAY */
+
+#monday{
+	background-color: rgb(69, 158, 222);
+}
+
+.monday-subtopics{
+	background-color: rgb(78, 173, 242);
+}
+
+/* TUESDAY */
+
+#tuesday{
+	background-color: rgb(61, 224, 156);
+}
+
+.tuesday-subtopics{
+	background-color: rgb(65, 242, 168);
+}
+
+/* WEDNESDAY */
+
+#wednesday{
+	background-color: rgb(67, 227, 61);
+}
+
+.wednesday-subtopics{
+	background-color: rgb(75, 252, 68);
+}
+
+/* THURSDAY */
+
+#thursday{
+	background-color: rgb(224, 153, 54);
+}
+
+.thursday-subtopics{
+	background-color: rgb(242, 166, 61);
+}
+
+/* FRIDAY */
+
+#friday{
+	background-color: rgb(149, 51, 214);
+}
+
+.friday-subtopics{
+	background-color: rgb(165, 57, 237);
+}
+
+/* FOOTER */
+
+footer p{
+	margin: auto;
+	font-size: 1em;
+	margin-block: 2em;
+	text-align: center;
+}
